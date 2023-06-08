@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+input:checked + label {
+  color: white;
+  background: #000;
+  transition: 0.7s;
+}
+/* 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -24,4 +30,4 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
