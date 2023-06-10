@@ -11,10 +11,10 @@ module.exports = {
       'blue-2': '#EEFBFF',
       'white' : '#FFFFFF',
       'black' : '#000000',
-    },
-    fontFamily: {
-      'McLaren': ['Montserrat', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      'green' : '#39A844',
+      'brown' : '#A8A8A8',
+      'red' : '#D71D1D',
+      'yellow' : '#FFBB0B'
     },
     extend: {
       backgroundImage: {

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=McLaren&family=Montserrat:wght@500&family=Open+Sans:wght@500&display=swap');
+
+.mclaren {
+  font-family: 'McLaren', cursive;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+}
+
 input:checked + label {
   color: white;
   background: #000;
