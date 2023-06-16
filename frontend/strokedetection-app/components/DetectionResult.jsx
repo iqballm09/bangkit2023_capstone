@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function DetectionResult() {
     return (
         <div className="row-span-1 shadow-lg rounded-md p-8">
@@ -14,9 +16,11 @@ export default function DetectionResult() {
                 </div>
             </div>
             <p>You risk of stroke is <strong className="text-green">Low</strong></p>
-            <div className="bg-blue-1 mt-4 py-2 text-center rounded-md shadow-lg">
-                <p className="text-white">Re-check</p>
-            </div>
+            <Link  href="/FormPage">
+                <div className="bg-blue-1 mt-4 py-2 text-center rounded-md shadow-lg">
+                    <p className="text-white">Re-check</p>
+                </div>
+            </Link>
         </div>
     )
 }

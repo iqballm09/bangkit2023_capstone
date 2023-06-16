@@ -8,7 +8,7 @@ export default function Result() {
     return (
         <>
             <TopNav/>
-            <div className="grid grid-cols-2 gap-4 m-auto max-w-screen-xl p-4 montserrat">
+            <div className="grid grid-cols-2 gap-4 m-auto max-w-screen-xl p-4">
                 <div>
                     <DetectionResult/>
                     <Detail/>

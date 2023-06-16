@@ -5,7 +5,7 @@ export default function FormPage() {
     return (
         <>
             <TopNav/>
-            <div className="py-8 px-10 m-auto max-w-screen-lg montserrat">
+            <div className="py-8 px-10 m-auto max-w-screen-lg">
                 <p className="font-bold text-xl">Complete some of your information to detect </p>
                 <form className="grid grid-cols-2 gap-x-14 my-5">
                     <div>
